@@ -4,7 +4,19 @@
 //     font-style: normal;
 // }
 @font-face {
-    font-family: "roobert";
-    src: url("../../../public/assets/fonts/");
-    font-weight: 400;
+    font-family: "fontspring-demo-willgraya-medium";
+    src: url("../../../public/assets/fonts/fontspring-demo-willgraya-medium.otf");
+}
+
+@font-face {
+    font-family: "fontspring-demo-willgraya-semibold";
+    src: url("../../../public/assets/fonts/fontspring-demo-willgraya-semibold.otf");
+}
+
+.will-medium {
+    font-family: "fontspring-demo-willgraya-medium";
+}
+
+.will-medium {
+    font-family: "fontspring-demo-willgraya-semibold";
 }
