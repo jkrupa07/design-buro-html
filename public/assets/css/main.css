@@ -17974,4 +17974,30 @@ footer .media-bg .media-img {
   font-weight: 700;
 }
 
+.projects-section .project-title {
+  bottom: 50px;
+  left: 40px;
+}
+
+.project-slider-section .project-img {
+  height: 370px;
+}
+.project-slider-section .slick-arrow {
+  height: 52px;
+  width: 52px;
+}
+.project-slider-section .slick-arrow.prev-arrow {
+  left: 20px;
+}
+.project-slider-section .slick-arrow.prev-arrow img {
+  transform: rotate(180deg);
+  height: 12px;
+}
+.project-slider-section .slick-arrow.next-arrow {
+  right: 20px;
+}
+.project-slider-section .slick-arrow.next-arrow img {
+  height: 12px;
+}
+
 /*# sourceMappingURL=main.css.map */
