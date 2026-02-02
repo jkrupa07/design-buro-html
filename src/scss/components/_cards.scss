@@ -10,3 +10,26 @@
         }
     }
 }
+
+.image-card {
+    height: 535px;
+
+    .hover-wrapper {
+        opacity: 0;
+        visibility: hidden; 
+        transform: translateY(0px);
+    }
+
+    &:hover {
+        .hover-wrapper {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(-100%);
+        }
+    }
+}
+
+.image-card:nth-child(4n + 2),
+.image-card:nth-child(4n + 3) {
+    width: 525px;
+}
