@@ -17467,6 +17467,22 @@ textarea {
   padding-left: 0px;
   padding-right: 0px;
 }
+.row.row10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.row.row10 > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.row.row8 {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.row.row8 > * {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 
 .w-fit {
   width: fit-content;
@@ -17876,6 +17892,20 @@ button,
   background-color: transparent;
   border: 1px solid #f07a47;
   color: #f07a47;
+}
+
+input {
+  border: 1px solid #BCBCBC;
+}
+input::placeholder {
+  color: #ffffff;
+}
+
+textarea {
+  border: 1px solid #BCBCBC;
+}
+textarea::placeholder {
+  color: #ffffff;
 }
 
 .card-hover .img {
