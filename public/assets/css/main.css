@@ -17925,7 +17925,14 @@ footer .media-bg .media-img {
 }
 
 .hero-section .hero-layer {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9));
+}
+
+.sub-hero-section {
+  height: 620px;
+}
+.sub-hero-section .sub-bg-layer {
+  background: linear-gradient(180deg, rgba(3, 39, 49, 0.47), rgba(6, 85, 108, 0.4));
 }
 
 .privacy-policy-section .privacy-links li.active a {
