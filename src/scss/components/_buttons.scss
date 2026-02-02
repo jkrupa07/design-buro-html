@@ -14,38 +14,37 @@ button,
     border-radius: 0px 30px 30px 30px;
 
     &.bg-06556C-btn {
-        background-color: #06556C;
+        background-color: $color-06556c;
         border: 1px solid transparent;
         color: $white;
 
         &:hover {
             background-color: transparent;
-            border: 1px solid #06556C;
-            color: #06556C;
+            border: 1px solid $color-06556c;
         }
     }
 
-    &.bg-F07A47-white-text-btn {
-        background-color: #F07A47;
+    &.bg-f07a47-white-text-btn {
+        background-color: $color-f07a47;
         border: 1px solid transparent;
         color: $white;
 
         &:hover {
             background-color: transparent;
-            border: 1px solid #F07A47;
-            color: #F07A47;
+            border: 1px solid $color-f07a47;
+            color: $color-f07a47;
         }
     }
 
     &.bg-white-btn {
         background-color: $white;
         border: 1px solid transparent;
-        color: #F07A47;
+        color: $color-f07a47;
 
         &:hover {
             background-color: transparent;
-            border: 1px solid #F07A47;
-            color: #F07A47;
+            border: 1px solid $color-f07a47;
+            color: $color-f07a47;
         }
     }
 }

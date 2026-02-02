@@ -13,10 +13,19 @@
     src: url("../../../public/assets/fonts/fontspring-demo-willgraya-semibold.otf");
 }
 
+@font-face {
+    font-family: "fontspring-demo-willgraya-regular";
+    src: url("../../../public/assets/fonts/fontspring-demo-willgraya-regular.otf");
+}
+
 .will-medium {
     font-family: "fontspring-demo-willgraya-medium";
 }
 
 .will-semibold {
     font-family: "fontspring-demo-willgraya-semibold";
+}
+
+.will-normal {
+    font-family: "fontspring-demo-willgraya-regular";
 }

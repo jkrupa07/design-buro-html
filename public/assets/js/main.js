@@ -20433,7 +20433,33 @@ var Plugins = /*#__PURE__*/function () {
   }
   plugins_createClass(Plugins, [{
     key: "init",
-    value: function init() {}
+    value: function init() {
+      this.HeroSlider();
+    }
+  }, {
+    key: "HeroSlider",
+    value: function HeroSlider() {
+      $(".hero-slider").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: false,
+        responsive: [{
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 525,
+          settings: {
+            slidesToShow: 1,
+            infinite: false
+          }
+        }]
+      });
+    }
   }]);
   return Plugins;
 }();
