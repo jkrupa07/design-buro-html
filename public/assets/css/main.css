@@ -17829,6 +17829,10 @@ textarea {
     letter-spacing: -0.96px;
   }
 }
+.opacity80 {
+  opacity: 80%;
+}
+
 button,
 [type=button],
 [type=reset],
@@ -17922,6 +17926,15 @@ footer .media-bg .media-img {
 
 .hero-section .hero-layer {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3));
+}
+
+.privacy-policy-section .privacy-links li.active a {
+  opacity: 100%;
+}
+.privacy-policy-section .privacy-links li.active::before {
+  content: ">";
+  color: #f07a47;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */

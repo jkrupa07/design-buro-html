@@ -1,0 +1,16 @@
+.privacy-policy-section{
+    .privacy-links{
+        li{
+            &.active{
+                a{
+                    opacity: 100%;
+                }
+                &::before{
+                    content: ">";
+                    color: $color-f07a47;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
