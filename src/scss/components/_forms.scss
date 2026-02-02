@@ -1,0 +1,14 @@
+input {
+    border: 1px solid $color-BCBCBC;
+
+    &::placeholder {
+        color: $color-ffffff;
+    }
+}
+
+textarea {
+    border: 1px solid $color-BCBCBC;
+     &::placeholder {
+        color: $color-ffffff;
+    }
+}

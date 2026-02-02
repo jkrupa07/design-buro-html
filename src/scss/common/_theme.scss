@@ -17,6 +17,25 @@
     padding-left: -0px;
     padding-right: -0px;
   }
+
+  &.row10 {
+    margin-left: -10px;
+    margin-right: -10px;
+
+    &>* {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  &.row8 {
+    margin-left: -8px;
+    margin-right: -8px;
+
+    &>* {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
 }
 
 .w-fit {
