@@ -18019,6 +18019,7 @@ footer .media-bg .media-img {
 .related-project-slider-section .slick-arrow {
   height: 52px;
   width: 52px;
+  border: 1px solid rgba(240, 122, 71, 0.4);
 }
 .related-project-slider-section .slick-arrow.prev-arrow {
   left: 20px;
@@ -18035,6 +18036,7 @@ footer .media-bg .media-img {
 }
 .related-project-slider-section .slick-arrow.slick-disabled {
   background-color: #f07a47 !important;
+  border: 0;
 }
 .related-project-slider-section .slick-arrow.slick-disabled .arrow-bg {
   filter: brightness(3);
