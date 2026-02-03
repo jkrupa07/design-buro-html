@@ -6,6 +6,7 @@ export class Plugins {
     this.HeroSlider();
     this.OpenProjectSlider();
     this.RelatedOpenProjectSlider();
+    this.TeamSlider();
   }
 
   HeroSlider() {
@@ -67,10 +68,37 @@ export class Plugins {
       slidesToScroll: 1,
       infinite: false,
       arrows: true,
-      dots: true,
+      dots: false,
       variableWidth:true,
       prevArrow: '.related-project-slider-section .prev-arrow',
       nextArrow: '.related-project-slider-section .next-arrow',
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+  }
+
+
+  TeamSlider() {
+    $('.team-slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      infinite: false,
+      arrows: true,
+      dots: false,
+      prevArrow: '.team-slider-section .prev-arrow',
+      nextArrow: '.team-slider-section .next-arrow',
       responsive: [
         {
           breakpoint: 992,
