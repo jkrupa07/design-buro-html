@@ -17965,6 +17965,15 @@ textarea::placeholder {
   padding-right: 8px;
 }
 
+.team-slider .slick-list {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.team-slider .slick-list .slick-slide {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 header {
   z-index: 99999;
   padding-block: 35px;
@@ -18084,6 +18093,59 @@ header nav ul li .header-link {
 .team-card-section .team-card-title {
   top: 30px;
   left: 25px;
+}
+
+.about-content-section {
+  border-bottom: 1px solid rgba(6, 85, 108, 0.15);
+}
+
+.left-accordion-section .services-accordion .closet-content {
+  display: none;
+}
+.left-accordion-section .services-accordion .icon-bg {
+  width: 41px;
+  height: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.left-accordion-section .services-accordion .icon-bg img {
+  height: 20px;
+}
+.left-accordion-section .services-accordion .closet-header.active .icon-bg img {
+  transform: rotate(45deg);
+}
+
+.team-slider-section {
+  border-radius: 0 100px 0 0;
+}
+.team-slider-section .slick-arrow {
+  height: 52px;
+  width: 52px;
+  border: 1px solid rgba(240, 122, 71, 0.4);
+}
+.team-slider-section .slick-arrow.prev-arrow {
+  left: 20px;
+}
+.team-slider-section .slick-arrow.prev-arrow img {
+  transform: rotate(180deg);
+  height: 12px;
+}
+.team-slider-section .slick-arrow.next-arrow {
+  right: 20px;
+}
+.team-slider-section .slick-arrow.next-arrow img {
+  height: 12px;
+}
+.team-slider-section .slick-arrow.slick-disabled {
+  background-color: #f07a47 !important;
+  border: 0;
+}
+.team-slider-section .slick-arrow.slick-disabled .arrow-bg {
+  filter: brightness(3);
+}
+.team-slider-section .team-card-title {
+  top: 30px;
+  left: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
