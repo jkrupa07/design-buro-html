@@ -33,6 +33,7 @@ export class Plugins {
       ],
     });
   }
+  
   OpenProjectSlider() {
     $('.project-slider').slick({
       slidesToShow: 3,
@@ -68,7 +69,7 @@ export class Plugins {
       infinite: false,
       arrows: true,
       dots: true,
-      variableWidth:true,
+      variableWidth: true,
       prevArrow: '.related-project-slider-section .prev-arrow',
       nextArrow: '.related-project-slider-section .next-arrow',
       responsive: [

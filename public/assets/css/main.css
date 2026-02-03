@@ -17899,16 +17899,11 @@ button,
   color: #f07a47;
 }
 
-input {
-  border: 1px solid #BCBCBC;
-}
-input::placeholder {
-  color: #ffffff;
-}
-
+input,
 textarea {
   border: 1px solid #BCBCBC;
 }
+input::placeholder,
 textarea::placeholder {
   color: #ffffff;
 }
