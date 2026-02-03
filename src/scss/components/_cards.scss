@@ -14,9 +14,19 @@
 .image-card {
     height: 535px;
 
+    .project-bg-layer {
+        height: 275px;
+        background: linear-gradient(180deg, rgba(6, 85, 108, 0), rgba(6, 85, 108, 0.3));
+    }
+
+    &:nth-child(4n + 2),
+    &:nth-child(4n + 3) {
+        width: 525px;
+    }
+
     .hover-wrapper {
         opacity: 0;
-        visibility: hidden; 
+        visibility: hidden;
         transform: translateY(0px);
     }
 
@@ -25,11 +35,11 @@
             opacity: 1;
             visibility: visible;
             transform: translateY(-100%);
+            opacity: 92%;
+        }
+
+        .card-title {
+            opacity: 0;
         }
     }
-}
-
-.image-card:nth-child(4n + 2),
-.image-card:nth-child(4n + 3) {
-    width: 525px;
 }

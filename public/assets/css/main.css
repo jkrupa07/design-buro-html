@@ -17923,6 +17923,12 @@ textarea::placeholder {
 .image-card {
   height: 535px;
 }
+.image-card .link-bg-layer {
+  background: rgba(0, 0, 0, 0.25);
+}
+.image-card:nth-child(4n+2), .image-card:nth-child(4n+3) {
+  width: 525px;
+}
 .image-card .hover-wrapper {
   opacity: 0;
   visibility: hidden;
@@ -17932,11 +17938,10 @@ textarea::placeholder {
   opacity: 1;
   visibility: visible;
   transform: translateY(-100%);
+  opacity: 92%;
 }
-
-.image-card:nth-child(4n+2),
-.image-card:nth-child(4n+3) {
-  width: 525px;
+.image-card:hover .card-title {
+  opacity: 0;
 }
 
 .hero-slider .slick-slide,
