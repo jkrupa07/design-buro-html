@@ -17924,8 +17924,9 @@ textarea::placeholder {
 .image-card {
   height: 535px;
 }
-.image-card .link-bg-layer {
-  background: rgba(0, 0, 0, 0.25);
+.image-card .project-bg-layer {
+  height: 275px;
+  background: linear-gradient(180deg, rgba(6, 85, 108, 0), rgba(6, 85, 108, 0.3));
 }
 .image-card:nth-child(4n+2), .image-card:nth-child(4n+3) {
   width: 525px;
@@ -17984,12 +17985,12 @@ header nav ul li .header-link {
   border-radius: 0px 30px 30px 30px;
 }
 
-footer .media-bg {
+.social-media-content .media-bg {
   width: 46px;
   height: 46px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-footer .media-bg .media-img {
+.social-media-content .media-bg .media-img {
   height: 20px;
 }
 
