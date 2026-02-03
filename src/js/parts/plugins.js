@@ -5,6 +5,7 @@ export class Plugins {
   init() {
     this.HeroSlider();
     this.OpenProjectSlider();
+    this.RelatedOpenProjectSlider();
   }
 
   HeroSlider() {
@@ -33,31 +34,57 @@ export class Plugins {
     });
   }
   OpenProjectSlider() {
-    $(document).ready(function () {
-      $('.project-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: true,
-        dots: false,
-        infinite: true,
-        prevArrow: '.project-slider-section .prev-arrow',
-        nextArrow: '.project-slider-section .next-arrow',
-        centerMode: false,
-        responsive: [
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 2
-            }
-          },
-          {
-            breakpoint: 576,
-            settings: {
-              slidesToShow: 1
-            }
+    $('.project-slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      infinite: true,
+      prevArrow: '.project-slider-section .prev-arrow',
+      nextArrow: '.project-slider-section .next-arrow',
+      centerMode: false,
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
           }
-        ]
-      });
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+  }
+
+  RelatedOpenProjectSlider() {
+    $('.related-project-slider').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      infinite: false,
+      arrows: true,
+      dots: true,
+      variableWidth:true,
+      prevArrow: '.related-project-slider-section .prev-arrow',
+      nextArrow: '.related-project-slider-section .next-arrow',
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
     });
 
   }

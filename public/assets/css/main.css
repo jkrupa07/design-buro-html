@@ -17872,6 +17872,7 @@ button,
 .btnA.bg-06556C-btn:hover {
   background-color: transparent;
   border: 1px solid #06556c;
+  color: #06556c;
 }
 .btnA.bg-f07a47-white-text-btn {
   background-color: #f07a47;
@@ -17930,6 +17931,16 @@ textarea::placeholder {
   bottom: 0px !important;
 }
 
+.related-project-slider .slick-list {
+  overflow: visible;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.related-project-slider .slick-list .slick-slide {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 header {
   z-index: 99999;
   padding-block: 35px;
@@ -17979,6 +17990,11 @@ footer .media-bg .media-img {
   left: 40px;
 }
 
+.project-open-content-section .correct-icon {
+  height: 23px;
+  width: 23px;
+}
+
 .project-slider-section .project-img {
   height: 370px;
 }
@@ -17998,6 +18014,37 @@ footer .media-bg .media-img {
 }
 .project-slider-section .slick-arrow.next-arrow img {
   height: 12px;
+}
+
+.related-project-slider-section .slick-arrow {
+  height: 52px;
+  width: 52px;
+}
+.related-project-slider-section .slick-arrow.prev-arrow {
+  left: 20px;
+}
+.related-project-slider-section .slick-arrow.prev-arrow img {
+  transform: rotate(180deg);
+  height: 12px;
+}
+.related-project-slider-section .slick-arrow.next-arrow {
+  right: 20px;
+}
+.related-project-slider-section .slick-arrow.next-arrow img {
+  height: 12px;
+}
+.related-project-slider-section .slick-arrow.slick-disabled {
+  background-color: #f07a47 !important;
+}
+.related-project-slider-section .slick-arrow.slick-disabled .arrow-bg {
+  filter: brightness(3);
+}
+.related-project-slider-section .related-project-img {
+  height: 465px;
+}
+.related-project-slider-section .related-project-title {
+  bottom: 50px;
+  left: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
