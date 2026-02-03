@@ -1,4 +1,4 @@
-.hero-slider {
+.hero-slider{
 
     .slick-slide,
     .slick-list,
@@ -12,5 +12,18 @@
 
     .slick-dots {
         bottom: 0px !important;
+    }
+}
+
+.related-project-slider{
+    .slick-list{
+        overflow: visible;
+        margin-left: -8px;
+        margin-right: -8px;
+        
+        .slick-slide{
+            padding-left: 8px;
+            padding-right: 8px;
+        }
     }
 }
